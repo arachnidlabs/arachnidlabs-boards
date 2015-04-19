@@ -30,3 +30,10 @@
 
 # Debug files
 *.dSYM/
+LUFA-111009
+.dep
+*.eep
+*.lss
+*.lst
+*.map
+*.sym
