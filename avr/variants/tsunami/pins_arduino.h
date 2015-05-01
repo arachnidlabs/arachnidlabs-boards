@@ -90,14 +90,15 @@
 #undef OCR2_6
 #undef OCR2_7
 
-#define NUM_DIGITAL_PINS  30
+#define NUM_DIGITAL_PINS  32
 #define NUM_ANALOG_INPUTS 12
 
-#define TX_RX_LED_INIT	DDRD |= (1<<5), DDRB |= (1<<0)
-#define TXLED0			PORTD |= (1<<5)
-#define TXLED1			PORTD &= ~(1<<5)
-#define RXLED0			PORTB |= (1<<0)
-#define RXLED1			PORTB &= ~(1<<0)
+// No TX/RX LEDs
+#define TX_RX_LED_INIT	0
+#define TXLED0			0
+#define TXLED1			0
+#define RXLED0			0
+#define RXLED1			0
 
 static const uint8_t SDA = 2;
 static const uint8_t SCL = 3;
@@ -173,8 +174,8 @@ extern const uint8_t PROGMEM analog_pin_to_channel_PGM[];
 // MOSI		D16		PB2					MOSI,PCINT2
 // SS		D17		PB0					RXLED,SS/PCINT0
 //
-// TXLED			PD5
-// RXLED		    PB0
+// D30				PD5
+// D31			    PB0
 // HWB				PE2					HWB
 
 // these arrays map port names (e.g. port B) to the
@@ -245,6 +246,9 @@ const uint8_t PROGMEM digital_pin_to_port_PGM[] = {
 	PB, // D27 / D9 - A9 - PB5
 	PB, // D28 / D10 - A10 - PB6
 	PD, // D29 / D12 - A11 - PD6
+
+	PD, // D30 / PD5
+	PB, // D31 / PB0
 };
 
 const uint8_t PROGMEM digital_pin_to_bit_mask_PGM[] = {
@@ -282,6 +286,9 @@ const uint8_t PROGMEM digital_pin_to_bit_mask_PGM[] = {
 	_BV(5), // D27 / D9 - A9 - PB5
 	_BV(6), // D28 / D10 - A10 - PB6
 	_BV(6), // D29 / D12 - A11 - PD6
+
+	_BV(5), // D30 / PD5
+	_BV(0), // D31 / PB0
 };
 
 const uint8_t PROGMEM digital_pin_to_timer_PGM[] = {
@@ -309,6 +316,8 @@ const uint8_t PROGMEM digital_pin_to_timer_PGM[] = {
 	NOT_ON_TIMER,
 	NOT_ON_TIMER,
 
+	NOT_ON_TIMER,
+	NOT_ON_TIMER,
 	NOT_ON_TIMER,
 	NOT_ON_TIMER,
 	NOT_ON_TIMER,
