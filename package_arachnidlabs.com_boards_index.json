@@ -6,7 +6,7 @@
 			"websiteURL": "http://www.arachnidlabs.com/",
 			"email": "nick@arachnidlabs.com",
 
-			platforms: [
+			"platforms": [
 				{
 					"name": "Arachnid Labs AVR boards",
 					"architecture": "avr",
