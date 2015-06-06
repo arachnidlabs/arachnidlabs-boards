@@ -13,24 +13,24 @@
 					"version": "1.0.0",
 					"category": "Contributed",
 					"help": {
-						"online": "http://discuss.arachnidlabs.com/",
+						"online": "http://discuss.arachnidlabs.com/"
 					},
 					"url": "https://github.com/arachnidlabs/tsunami-arduino/archive/v1.0.0.zip",
 					"archiveName": "arachnidlabs-boards-1.0.0",
 					"size": "33499",
 					"checksum": "SHA-256:ff51840b106feee2162e9f89354d6a0d25169afe00a749b30258478eb69411ba",
 					"boards": [
-						{"name": "Tsunami"},
+						{"name": "Tsunami"}
 					],
 					"toolsDependencies": [
 						{"packager": "arduino", "name": "avr-gcc", "version": "4.8.1-arduino2"},
-						{"packager": "arduino", "name": "avrdude", "version": "6.0.1-arduino2"},
-					],
+						{"packager": "arduino", "name": "avrdude", "version": "6.0.1-arduino2"}
+					]
 				}
 			],
 
 			"tools": [
-			],
+			]
 		}
 	]
 }
