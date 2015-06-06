@@ -17,8 +17,8 @@
 					},
 					"url": "https://github.com/arachnidlabs/arachnidlabs-boards/archive/v1.0.0.zip",
 					"archiveFileName": "arachnidlabs-boards-1.0.0.zip",
-					"size": "33499",
-					"checksum": "SHA-256:ff51840b106feee2162e9f89354d6a0d25169afe00a749b30258478eb69411ba",
+					"size": "33894",
+					"checksum": "SHA-256:f711881903d6281dba65759b04b605387733cf81758d91b6ddc358650e8dc0f3",
 					"boards": [
 						{"name": "Tsunami"}
 					],
