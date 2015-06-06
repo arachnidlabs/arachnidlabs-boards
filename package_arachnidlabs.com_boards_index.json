@@ -17,7 +17,7 @@
 					},
 					"url": "https://github.com/arachnidlabs/tsunami-arduino/archive/v1.0.0.zip",
 					"archiveFileName": "arachnidlabs-boards-1.0.0",
-					"size": "33499",
+					"size": "20504",
 					"checksum": "SHA-256:a30abafbf9f2837974ea5d8e38e8bc6b3c0cbb256daf904ab859f8b526803010",
 					"boards": [
 						{"name": "Tsunami"}
