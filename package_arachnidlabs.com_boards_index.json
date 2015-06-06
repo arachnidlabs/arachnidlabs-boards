@@ -15,10 +15,10 @@
 					"help": {
 						"online": "http://discuss.arachnidlabs.com/"
 					},
-					"url": "https://github.com/arachnidlabs/tsunami-arduino/archive/v1.0.0.zip",
+					"url": "https://github.com/arachnidlabs/arachnidlabs-boards/archive/v1.0.0.zip",
 					"archiveFileName": "arachnidlabs-boards-1.0.0.zip",
-					"size": "20504",
-					"checksum": "SHA-256:a30abafbf9f2837974ea5d8e38e8bc6b3c0cbb256daf904ab859f8b526803010",
+					"size": "33499",
+					"checksum": "SHA-256:ff51840b106feee2162e9f89354d6a0d25169afe00a749b30258478eb69411ba",
 					"boards": [
 						{"name": "Tsunami"}
 					],
